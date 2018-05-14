@@ -1,0 +1,29 @@
+table,th,td{
+	border-bottom: 1px solid black;
+	}
+table{
+	border-collapse:collapse;
+	width:100%;
+}
+th,td{
+	height:50px;
+	text-align:center;
+	padding:15px;
+}
+th{
+	background-color: #4CAF50;
+	color: white;
+}
+*>input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 12%;
+}
+*>input[type="textarea"]{
+	padding:15px;
+	width:50%;
+}

@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="registration.css">
+</head>
+<body>
+	<header>
+	<img src="images\online_test_series_jee_advanced_iitjee.jpg">
+	</header>
+	<center>
+	<form id="registration" action="reg.php" method="post">
+			<h1>Registration</h1>
+			<input type="text" name="name" placeholder="Name">
+			<input type="email" name="email" placeholder="Email-id">
+			<select name="day">
+				<option>1</option>
+				<option>2</option>
+				<option>...</option>
+				<option>30</option>
+			</select>
+			<select name="month">
+				<option>1</option>
+				<option>2</option>
+				<option>....</option>
+				<option>12</option>
+			</select>
+			<select name="year">
+				<option>1990</option>
+				<option>1991</option>
+				<option>....</option>
+				<option>2007</option>
+			</select>
+			<input type="text" name="mobile" placeholder="Mobile No">
+			<input type="password" name="pwd" placeholder="Password">
+			<input type="password" name="pwd2" placeholder="Re-enter Password">
+			<input type="radio" name="gender" value="Male"> Male
+			<input type="radio" name="gender" value="Female"> Female
+			<input type="submit" value="Register" name="Register">
+			<a href="index.php">Go Back</a>
+	</form>
+	</center>
+</body>
+</html>
